@@ -1,0 +1,284 @@
+
+
+
+  html {
+    background-color: #00539F;
+  }
+  body {
+    /*width: 500px;*/
+    margin: 0 auto;
+    background-color: #000;
+    /*padding: 0 300px 300px 300px;*/
+    /*border: 50px solid black;*/
+  }
+  header{
+    background-image: url(../Illustrations/Bathome1.png);
+    background-size: 100vw 75vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 95vh;
+  }
+.elementfleche{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+  .container ul{
+   padding-left: 85%;
+   text-align: 70px;
+  }
+#image-logo{
+  margin-top: 50px;
+}
+  .container h1{
+    padding-left: 5vw;
+  }
+  .element-haut{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50vh;
+    
+  }
+  .scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-top: 50vh;
+    margin-left: 80vw;
+  }
+  .scroll .social{
+    margin-top: 15px;
+  }
+  /*Design de la section batman personnage */
+  #container batman-cinema{
+    margin-top: 40px;
+    text-align: center;
+  }
+  #titre-image .img{
+    display: flex;
+    justify-content: left;
+    margin-left: 95%;
+    text-align: left;
+  }
+ .batman-personnage{
+   display: flex;
+   justify-content: center;
+  }
+ #batman-cinema .titre{
+   text-transform: uppercase;
+   justify-content: center;
+   font-weight: bold;
+   margin: 30px 0;
+    }
+ #batman-justice-league .titre{
+  text-transform: uppercase;
+  justify-content: center;
+  font-weight: bold;
+  margin: 30px 0;
+    }
+ #batman-cinema .description{
+   margin-bottom: 40px;
+   text-align: justify;
+   width: 80%;
+   font-size: 21px;
+  }
+ #descrition .p{
+  margin-bottom: 40px;
+  text-align: justify;
+  width: 80%;
+  font-size: 21px;
+ }
+ #batman-justice-league p{
+  margin-bottom: 40px;
+  text-align: justify;
+  width: 80%;
+  font-size: 21px;
+ }
+ #batman-cinema .personnage-info h3{
+   text-align: center;
+ }
+ #batman-cinema .personnage-info p{
+  text-align: center;
+ }
+.batman-item img{
+justify-content: center;
+display: flex;
+width: 19vw;
+height: auto;
+margin-right: 8vw;
+  }
+/* Design de la partie NÉMÉSIS */
+.container-némésis>.descriptions{
+  display: flex;
+  text-align: center;
+  margin: 2vw;
+}
+.NÉMÉSIS-personnage{
+  display: flex;
+  justify-content: center;
+  }
+#image-em{
+  margin-top: 5px;
+  }
+#batman-NÉMÉSIS .titre{
+  text-transform: uppercase;
+  justify-content: left;
+  font-weight: bold;
+  margin: 30px 0;
+   }
+.némésis-item img{
+  justify-content: center;
+  display: flex;
+  width: 19vw;
+  height: auto;
+  margin-right: 8vw;
+  }
+  #batman-NÉMÉSIS p{
+  margin-bottom: 40px;
+  text-align: justify;
+  width: 80%;
+  font-size: 21px;
+  }
+  #batman-NÉMÉSIS .personnage-info h3{
+  text-align: center;
+   }
+  #batman-NÉMÉSIS .personnage-info p{
+    text-align: center;
+   }
+ /* Design de la partie ALLIÉS */
+ #ALLIES .titre{
+  text-transform: uppercase;
+  justify-content: center;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: left;
+ }
+ #image-alli{
+  margin-left: 70vw;
+}
+.container>.description{
+  display: flex;
+  text-align: center;
+  margin: 5vw;
+} 
+#batman-cinema> h1{
+  display: flex;
+  text-align: center;
+  margin: 5vw;
+
+}
+
+.ALLIES-personnage{
+  display: flex;
+  justify-content: center;
+}
+#batman-ALLIES .personnage-info{
+  text-align: center;
+ }
+ .alliés-item img{
+  display: flex;
+  justify-content: right;
+  width: 19vw;
+  height: auto;
+  margin-right: 8vw;
+ }
+ /* Design de la partie multimedia */
+ #multimedia .slider-multimedia{
+   display: flex;
+   width: 50%;
+   margin: 40px auto;
+ }
+ #multimedia .slider-image{
+   with:100%;
+ }
+ #multimedia .slider-content{
+   padding: 10px;
+   background-color: #727272;
+ }
+ #multimedia p{
+   background-size: 14px;
+ }
+ #multimedia .annoncing-image img{
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+ }
+ #multimedia .fleche-left img{
+  display: flex;
+  flex-direction: left;
+  width: 40px;
+  margin-left: 25vh;
+  margin-right: 80vw;
+ }
+ #multimedia .fleche-right img{
+  display: flex;
+  flex-direction: right;
+  width: 40px;
+  margin-right: 90vh;
+  margin-left: 80vw;
+ }
+.element-ba h3{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+.element p{
+  justify-content: center;
+  text-align: right;
+}
+.formulaire{
+  justify-content: center;
+  display: flex;
+  top: 30px;
+  left: 30px;
+}
+.formulaire> .titre{
+  padding-top: 45vw;
+  justify-content: center;
+  text-align: center;
+  margin: 45vw;
+  }
+.email p{
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-bottom: 2px solid wheat;
+  outline: none;
+  padding-top: 25vw;
+  margin: 25vw;
+  }
+#newsletter{
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-bottom: 2px solid wheat;
+  outline: none;
+}
+#span{
+  border: none;
+  border-bottom: 2px solid wheat;
+  outline: none;
+}
+#message{
+  border: none;
+  border-bottom: 2px solid wheat;
+  outline: none;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  border: top;
+}
+/*!--section Citation--*/
+section .image-gui{
+  display: flex;
+  justify-content: center;
+  text-align: right;
+
+}
+
+
+
+          
