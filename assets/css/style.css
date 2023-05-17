@@ -1,22 +1,36 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
   html {
-    background-color: #00539F;
+    background-color: #19587d;
   }
   body {
     /*width: 500px;*/
     margin: 0 auto;
     background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
     /*padding: 0 300px 300px 300px;*/
     /*border: 50px solid black;*/
   }
+  .up-bar{
+    border-top: #727272 2px solid;
+    position: relative;
+    top: 132px;
+    width: 80%;
+    left: 102px ;
+
+  }
+  .logo:hover{
+    filter: drop-shadow(10px 10px 5px #ffff00);
+    -webkit-filter: drop-shadow(10px 10px 5px #ffff00);
+  }
   header{
     background-image: url(../Illustrations/Bathome1.png);
-    background-size: 100vw 75vh;
+    background-size: 100vw 70vh;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 95vh;
+    height: 90vh;
+    margin: 40px;
   }
 .elementfleche{
   display: block;
@@ -228,56 +242,114 @@ margin-right: 8vw;
   justify-content: center;
   text-align: right;
 }
-.formulaire{
-  justify-content: center;
-  display: flex;
-  top: 30px;
-  left: 30px;
+#multimedia button{
+  position:relative;
+  top: 155px;
+  background: none;
+  border: none;
 }
-.formulaire> .titre{
-  padding-top: 45vw;
-  justify-content: center;
+/* Design de la partie - Formulaire */
+#contact{
+  background-color: darkslategrey;
+  padding: 70px 0;
+}
+#contact .form{
+  width: 50%;
+  margin: 0 auto;
+}
+#contact h2{
   text-align: center;
-  margin: 45vw;
-  }
-.email p{
-  display: flex;
-  justify-content: center;
-  border: none;
-  border-bottom: 2px solid wheat;
-  outline: none;
-  padding-top: 25vw;
-  margin: 25vw;
-  }
-#newsletter{
-  display: flex;
-  justify-content: center;
-  border: none;
-  border-bottom: 2px solid wheat;
-  outline: none;
+  font-size: 32px;
+  margin-bottom: 32px;
 }
-#span{
-  border: none;
-  border-bottom: 2px solid wheat;
-  outline: none;
+#contact .titre{
+  display: block;
+  margin: 28px 0;
 }
-#message{
-  border: none;
-  border-bottom: 2px solid wheat;
-  outline: none;
+#contact .form input[type='email'],textarea{
+  display: block;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 80%;
+  border-bottom: 2px solid rgb(120, 120, 120);
+  background-color: transparent;
+  padding: 10px 0;
 }
-.button{
+#contact .icon img{
+  transform: rotate(90deg);
+}
+#contact .news{
+  margin: 15px 0;
+  border-bottom: 2px solid rgb(120, 120, 120);
+}
+::-ms-input-placeholder{
+  color: #f8f184;
+  font-size: 15px;
+}
+::placeholder{
+  color: #f8f184;
+  font-size: 15px;
+}
+.btn-group{
+  padding: 10px;
   display: flex;
-  justify-content: center;
-  border: top;
+  justify-content: space-around;
 }
-/*!--section Citation--*/
-section .image-gui{
-  display: flex;
-  justify-content: center;
-  text-align: right;
+.form input[type='radio']{
+  opacity: 0;
+}
+.btn-group label{
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid;
+        -o-border-image: linear-gradient(
+          69deg, red, blue
+        ) 1;
+        border-image:  linear-gradient(
+          69deg,red, blue
+        ) 1;
+  font-size: 20px;
+}
+input[type='submit']{
+  display: block;
+  width: 230px;
+  margin: 25px auto;
+  padding: 15px 0;
+}
+#citation{
+  margin: 90px;
+}
+#citation .citation-carte{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+#citation .citation-auteur{
+  padding-top: 30px;
+  font-size: 14px;
+  font-family: 'radjhani';
+}
+#citation .guillemet-close{
+  float: right;
+}
+/* Design du footer */
+footer{
+  margin-top: 162px;
+}
+footer .text-footer{
+  text-align: center;
+  font-size: 14px;
+}
+footer .social-footers{
+  text-align: center;
+  margin: 50px;
+}
+footer .social-item{
+  padding: 15px;
+}
 
-}
+
 
 
 
